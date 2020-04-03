@@ -38,32 +38,32 @@ const App = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">
+              <a className="nav-link js-scroll-trigger" href="#introduction">
                 Introduction
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#experience">
+              <a className="nav-link js-scroll-trigger" href="#flowchart">
                 Flowchart
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#education">
+              <a className="nav-link js-scroll-trigger" href="#tools">
               Tools and Languages
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#skills">
+              <a className="nav-link js-scroll-trigger" href="#code">
                 CODE
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#interests">
+              <a className="nav-link js-scroll-trigger" href="#output">
                 OUTPUT
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#awards">
+              <a className="nav-link js-scroll-trigger" href="#conclusion">
                 CONCLUSION
               </a>
             </li>
@@ -74,7 +74,7 @@ const App = () => {
       <div className="container-fluid p-0">
         <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
-          id="about"
+          id="introduction"
         >
           <div className="w-100">
             <h1 className="mb-0">
@@ -122,7 +122,7 @@ const App = () => {
 
         <section
           className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-          id="experience"
+          id="flowchart"
         >
           <div className="w-100">
             <h2 className="mb-5">Flowchart</h2>
@@ -135,7 +135,7 @@ const App = () => {
 
         <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
-          id="education"
+          id="tools"
         >
           <div className="w-100">
             <h2 className="mb-5">Tools and Languages</h2>
@@ -163,7 +163,7 @@ const App = () => {
 
         <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
-          id="skills"
+          id="code"
         >
         <Code/>
         </section>
@@ -172,7 +172,7 @@ const App = () => {
 
         <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
-          id="interests"
+          id="output"
         >
           <Output/>
         </section>
@@ -181,7 +181,7 @@ const App = () => {
 
         <section
           className="resume-section p-3 p-lg-5 d-flex align-items-center"
-          id="awards"
+          id="conclusion"
         >
           <div className="w-100">
             <h2 className="mb-5">CONCLUSION</h2>
