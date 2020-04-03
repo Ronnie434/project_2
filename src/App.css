@@ -204,5 +204,8 @@ a:hover {
     border: 2px solid black;
   }
   
-  
+  .conclusion{
+    width: 300px;
+    height: 150px;
+  }
 }

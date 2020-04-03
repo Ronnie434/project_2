@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import img from "./img/IMG.jpeg";
+import conclusion from "./img/conclusion.png";
 import flowchart from "./img/flowchart.png";
 import Code from "./components/Code";
 import Output from "./components/Output"
@@ -104,7 +105,7 @@ const App = () => {
               <a href="https://www.linkedin.com/in/ronniepatel/">
                 <i className="fab fa-linkedin-in" />
               </a>
-              <a href="/">
+              <a href="https://github.com/Ronnie434/project_2/tree/master">
                 <i className="fab fa-github" />
               </a>
               {/* <a href="/">
@@ -138,7 +139,22 @@ const App = () => {
         >
           <div className="w-100">
             <h2 className="mb-5">Tools and Languages</h2>
-
+              <h4>Tools</h4>
+              <li>quandl 3.3.0</li>
+              <li>matplotlib 2.1.1</li>
+              <li>numpy 1.14.0</li>
+              <li>fbprophet 0.2.1</li>
+              <li>pystan 2.17.0</li>
+              <li>pandas 0.22.0</li>
+              <li>pytrends 4.3.0</li>
+              <br></br>
+              <br></br>
+              <h4>Language</h4>
+              <li>Python 3.7</li>
+              <br></br>
+              <br></br>
+              <h4>Algorithm</h4>
+              <li>Linear Regression</li>
         
           </div>
         </section>
@@ -169,39 +185,7 @@ const App = () => {
         >
           <div className="w-100">
             <h2 className="mb-5">CONCLUSION</h2>
-            <ul className="fa-ul mb-0">
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />
-                Google Analytics Certified Developer
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />
-                Mobile Web Specialist - Google Certification
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />1<sup>st</sup>
-                Place - University of Colorado Boulder - Emerging Tech
-                Competition 2009
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />1<sup>st</sup>
-                Place - University of Colorado Boulder - Adobe Creative Jam 2008
-                (UI Design Category)
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />2<sup>nd</sup>
-                Place - University of Colorado Boulder - Emerging Tech
-                Competition 2008
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />1<sup>st</sup>
-                Place - James Buchanan High School - Hackathon 2006
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning" />3<sup>rd</sup>
-                Place - James Buchanan High School - Hackathon 2005
-              </li>
-            </ul>
+            <img className="conclusion" src={conclusion} alt=""/>
           </div>
         </section>
       </div>
